@@ -1,0 +1,97 @@
+.signin-ctn{
+    position: absolute;
+    margin: 0;
+    background-color: #FFFFFF;
+    width: 28%;
+    height: 20rem;
+    left:35%;
+    top:15%;    
+    display: block;
+    align-items: center;
+    box-shadow: 2px 1px  10px #3333331e;
+    justify-content: center;
+    border: 1px solid #2932412b;
+    border-radius: 3px;
+}
+.sign-in-title{
+    position: relative;
+    left:10%;
+    top:8%;
+    height:max-content;
+    width:30%;
+    font-size:180%;
+    font-weight:500;
+    /* background-color: red; */
+}
+.emails-label{
+    position: absolute;
+    left:10%;
+    top:24%;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.passwords-label {
+    position: absolute;
+    left: 10%;
+    top: 49%;
+    font-size:1.2rem;
+    font-weight: 300;
+}
+.email{
+    position: absolute;
+    left:10%;
+    top:30%;
+    width:70%;
+    border-radius: 3px;
+    border-width:1px;
+    height:2rem;
+}
+.password{
+        position: absolute;
+        left: 10%;
+        top: 55%;
+        width: 70%;
+        border-radius: 3px;
+        border-width: 1px;
+        height: 2rem;
+}
+.sign-in-btn{
+    position: absolute;
+    left:37%;
+    top:75%;
+    width:15%;
+    height:1.9rem;
+    font-size: 100%;
+    border-radius: 3px;
+    border-width:1px ;
+    cursor: pointer;
+    background-color:#b9f4f0;
+}
+.sign-in-btn:hover{
+    transition: 1.5s smooth ease;
+    background-color: #37cbbc57;
+}
+.new-user{
+    position: absolute;
+    top:110%;
+    width:100%;
+    height:max-content;
+    font-size: large;
+    color: rgba(2, 2, 2, 0.814);
+    background-color:#ffd500aa;
+    left:0%;
+    border-radius: 3px;
+    height:2rem;
+}
+.new-user-text{
+    position: absolute;
+    top:97%;
+    left:37%;
+
+}
+.new-acc{
+    position: absolute;
+    left:30%;
+    top:-36%;
+    
+}

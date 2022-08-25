@@ -1,0 +1,84 @@
+.new-user-ctn{
+    width:30%;
+    height:25rem;
+    background-color:#FFFFFF;
+    position: absolute;
+    box-shadow: 2px 1px 8px #3333331e;
+    border: 1px solid #2932412b;
+    left:34%;
+    top:18%;
+}
+.create-acc-title{
+    position: absolute;
+    font-size: 140%;
+    left:9.5%;
+    font-weight: 600;
+    top:4%;
+    
+
+}
+.create-acc-btn{
+    position: absolute;
+    left:27%;
+    top:80%;
+    background-color: #ffd607a7;
+    height:2rem;
+    width:40%;
+    border-radius: 3px;
+    border-width:1px;
+}
+.create-acc-text{
+    position: absolute;
+    top:-37%;
+    font-size: 130%;
+    
+    left:5%;
+}
+.name-label{
+    position: absolute;
+    top: 22%;
+    left:9%;
+    font-size: 110%;
+}
+.name{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    width: 65%;
+    height: 1.5rem;
+    border-radius: 3px;
+    border-width: 1px;
+
+}
+.email-label {
+    position: absolute;
+    top: 40%;
+    left:9%;
+    font-size: 110%;
+    font-weight: 400;
+}
+.nu-email{
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    width: 65%;
+    height: 1.5rem;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.password-label{
+    position: absolute;
+    top:59%;
+    left:9%;
+    font-size: 110%;
+}
+.nu-password{
+    position: absolute;
+    top:65%;
+    left: 10%;
+    width:65%;
+    height:1.5rem;
+    border-radius: 3px;
+    border-width: 1px;
+
+}

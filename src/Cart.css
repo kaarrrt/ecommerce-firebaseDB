@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.shopping-cart{
+    width:75%;
+    background-color:#fdfffc;
+    position: absolute;
+    left:1%;
+    top:20%;
+}
+.outer-cart{
+    width: 100%;
+    overflow: hidden;
+}
+.shopping-cart-title{
+    position: relative;
+    left:1%;
+}
+.cart-img{
+    position: absolute;
+    height: 80%;
+    top:10%;
+    left:5%;
+}
+
+.each-product{
+    display: flex;
+    position: relative;
+    height: 15rem;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.ep-title {
+    position: absolute;
+    font-size: 1.8rem;
+    color: #e63946;
+    font-family: 'Heebo', sans-serif;
+    left:20%;
+    top:10%
+}
+.ep-author{
+    position: absolute;
+    font-size: 1.4rem;
+    color: #457b9d;
+    font-family: 'Heebo', sans-serif;
+    left: 20%;
+    top:29%;
+}
+.ep-paperback{
+    position: absolute;
+    left:20%;
+    top:46%;
+    font-weight: 800;
+}
+.ep-qty-label{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 20%;
+    top:65%;
+    border-radius: 4px;
+        background-color: rgb(188, 219, 219);
+}
+.ep-minus-label{
+    position: absolute;
+        font-size: 1.6rem;
+        left: 25%;
+        top: 62.5%;
+}
+.ep-qty-no {
+    position: absolute;
+    font-size: 1.4rem;
+    left: 28%;
+    top: 63.5%;
+}
+.ep-plus-label {
+    position: absolute;
+    font-size: 1.4rem;
+    left: 31%;
+    top: 64%;
+}
+.ep-price{
+    display: flex;
+    position: absolute;
+    right:5%;
+    top:30%;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.ep-price-title{
+    position: absolute;
+    right:5%;
+    top:10%;
+    font-size: 1.8rem;
+}
+.line{
+    background-color: rgba(0, 0, 0, 0.386);
+    width: 100%;
+    height: 0.09rem;
+}
+.proceed{
+    position:absolute;
+    right:20%;
+    top:55%;
+    background-color: rgba(241, 222, 19, 0.863);
+    border:1px solid #0000;
+    border-radius: 2px;
+    font-size: medium;
+}
+.ep-rupee{
+    position: absolute;
+    height: 0.1rem;
+    top:20%;
+    right:100%;
+}
+.subtotal{
+    position: absolute;
+    top:20%;
+    width: 18%;
+    height:7rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color:#efe7e721;
+    right:2%;
+    border: 1px solid rgba(0, 0, 0, 0.079);
+}
+.subtotal-text{
+    position: absolute;
+    top:-5%;
+    left:5%;
+    font-size: 150%;
+}
+.trash{
+    position: absolute;
+    width:5%;
+    left: 36.5%;
+    top: 65%;
+    height:1.4rem;
+}
+.proceed-link{
+    text-decoration: none;
+    color: #000;
+}
+.proceed-link:visited{
+    color:#000;
+}

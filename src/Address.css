@@ -1,0 +1,115 @@
+.checkout-ctn{
+    width:40%;
+    height:30rem;
+    background-color: #edede928;
+    position: absolute;
+    left:30%;
+    top:20%;
+    border-radius: 3px;
+}
+.select-address{
+    position: absolute;
+    left:25%;
+    font-size: 1.4rem;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ch-name{
+    height:1.9rem;
+    width:75%;
+    position: absolute;
+    left:2%;
+    bottom:80%;
+    border: 1px solid black;
+    border-radius:3px;;
+
+}
+.ch-number{
+    height: 1.9rem;
+    width: 75%;
+    position: absolute;
+    left: 2%;
+    border: 1px solid black;
+        border-radius: 3px;
+    bottom:65%;
+}
+.ch-pincode{
+    height: 1.9rem;
+    width: 75%;
+    position: absolute;
+    left: 2%;
+    border: 1px solid black;
+    border-radius: 3px;
+    bottom:50%;
+
+}
+.ch-house {
+    height: 1.9rem;
+    width: 75%;
+    position: absolute;
+    left: 2%;
+    border: 1px solid black;
+    border-radius: 3px;
+    bottom:35%;
+}
+.ch-area {
+    height: 1.9rem;
+    width: 75%;
+    position: absolute;
+    left: 2%;
+    border: 1px solid black;
+    border-radius: 3px;
+    bottom:20%; 
+}
+.ch-usethisaddress{
+    position: absolute;
+    bottom:10%;
+    left:25%;
+    background-color: #ffd500aa;
+    border:0.8px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.name-lbl{
+    position:absolute;
+    left:2%;
+    font-size: 1.3rem;
+}
+.area-lbl{
+    position: absolute;
+    left:2%;
+    bottom:27%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.house-lbl {
+    position: absolute;
+    left: 2%;
+    bottom: 42%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.pincode-lbl {
+    position: absolute;
+    left: 2%;
+    bottom: 57%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.number-lbl {
+    position: absolute;
+    left: 2%;
+    bottom: 72%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.name-lbl {
+    position: absolute;
+    left: 2%;
+    bottom: 87%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

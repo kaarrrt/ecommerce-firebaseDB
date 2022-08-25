@@ -1,0 +1,54 @@
+.ch-items-images{
+    position: relative;
+    display: flex;
+    gap:30px;
+    font-size: 1.2rem;;
+}
+.address-info{
+    color:#22577a;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.ch-image{
+    width:9%;
+}
+.ch-ctn{
+    background-color:#edf2f4;
+    width: 97.3%;
+    position: relative;
+    height:30rem;
+    top: 0;
+    margin-top: 0;
+}
+.ch-buy_now{
+    position: absolute;
+    bottom:5%;
+    /* background-color:#ffd500aa; */
+    border-radius: 5px;
+    width: 5%;
+    font-size:1.2rem;
+}
+.ch-items{
+    position: absolute;
+    top:30%;
+}
+.ch-delivery{
+    font-size: 1.2rem;
+}
+.ch-buy_now-btn{
+    width: 100%;
+    height: 100%;
+    top:0;
+    border: 0.8px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #ffd500aa;
+
+}
+.ch-total{
+    font-size: 1.2rem;
+    position: absolute;
+    left: 10%;
+    bottom:-35%;
+    color: #f07167;
+}
