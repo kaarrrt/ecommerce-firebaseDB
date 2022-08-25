@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import rupee from './images/icons/currency-inr.png'
 import trash from './images/icons/trash.svg';
 import './Cart.css'

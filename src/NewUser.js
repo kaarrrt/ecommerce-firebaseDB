@@ -8,7 +8,6 @@ import {db} from './firebase-config';
 import {setDoc,doc} from 'firebase/firestore'
 import './NewUser.css'
 import GlobalContext from './context/GlobalContext';
-import ProductsContext from './context/ProductsContext';
 const NewUser = () => {
   
   // const {user}=useContext(ProductsContext);

@@ -2,8 +2,6 @@ import React,{useState,useEffect} from 'react'
 import {db} from './firebase-config'
 import {collection, getDocs } from 'firebase/firestore';
 import Product from './Product'
-import {Grid,Paper} from '@material-ui/core';
-import AllProducts from './AllProducts.js';
 import './Products.css'
 // const productFunc=(book,index)=>{
 //     return(

@@ -1,7 +1,7 @@
 import { BrowserRouter} from 'react-router-dom';
 import {Route,Routes} from 'react-router-dom';
 import './App.css';
-import React,{createContext} from 'react';
+import React from 'react';
 import Home from './Home';
 import Cart from './Cart';
 import Address from './Address'
