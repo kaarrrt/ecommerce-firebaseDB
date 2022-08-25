@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import BannerImages from './BannerImages';
 import right from './images/icons/right.svg';
 import left from './images/icons/left.svg';
