@@ -73,7 +73,7 @@ const ProductStates = (props) => {
     };
       }
       getCart();
-      
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   useEffect(()=>{
     let price=0;

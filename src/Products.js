@@ -17,6 +17,7 @@ const Products = () => {
       setBooks(books.docs.map((book)=>({...book.data()})))
     };
     getBooks();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   
     return (
