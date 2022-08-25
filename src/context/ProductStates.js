@@ -35,7 +35,7 @@ const ProductStates = (props) => {
       const id=carts[index].doc_id
       const addCart=async(id)=>{
         const userDoc=doc(db,"Cart"+user.uid,id)
-        const del=await updateDoc(userDoc,{qty:qty,TotalPrice:price})
+        await updateDoc(userDoc,{qty:qty,TotalPrice:price})
       }
       addCart(id);
     }
@@ -48,7 +48,7 @@ const ProductStates = (props) => {
       const id=carts[index].doc_id
       const minusCart=async(id)=>{
         const userDoc=doc(db,"Cart"+user.uid,id)
-        const del=await updateDoc(userDoc,{qty:qty,TotalPrice:price})
+        await updateDoc(userDoc,{qty:qty,TotalPrice:price})
       }
       minusCart(id);
     }
@@ -60,7 +60,7 @@ const ProductStates = (props) => {
 
       const deleteCart=async(id)=>{
         const userDoc=doc(db,"Cart"+user.uid,id)
-        const del=await deleteDoc(userDoc)
+        await deleteDoc(userDoc)
       }
       deleteCart(id);
     }

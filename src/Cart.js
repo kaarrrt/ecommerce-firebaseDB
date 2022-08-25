@@ -22,7 +22,6 @@ function Cart() {
     window.location.href="/checkout";
   }
   console.log(qty);
-  let i=0;
   return (
     <div className="outer-cart">
       <Navbar/>
