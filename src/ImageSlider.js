@@ -10,11 +10,11 @@ const [image,setImage]=useState(0);
   const nextSlide=()=>{
     setImage(image===length-1?0:image+1);
   }
-  // useEffect(() => {
-  //   setTimeout(()=>{
-  //     nextSlide();
-  //   },5500)
-  // }, [image])
+  useEffect(() => {
+    setTimeout(()=>{
+      nextSlide();
+    },5500)
+  }, [image])
   
   
   return (
