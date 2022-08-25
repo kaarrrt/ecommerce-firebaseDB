@@ -14,6 +14,7 @@ const [image,setImage]=useState(0);
     setTimeout(()=>{
       nextSlide();
     },5500)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [image])
   
   
